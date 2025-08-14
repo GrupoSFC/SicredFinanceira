@@ -258,12 +258,12 @@
     <script>
         // Initialize EmailJS
         (function(){
-            emailjs.init("fvqqcQKUU1OH--dzS");
+            emailjs.init("8_sAiMqjbd7lzjOEu");
         })();
     
         // ----- VARIÁVEIS DE CONTROLE E CONFIGURAÇÃO -----
         let isSubmitting = false;
-        const googleScriptUrl = 'https://script.google.com/macros/s/AKfycbz9HQoHxXO9LZ5BZdV97IIHd397ggrkQ7PdDx7a0PdeNtdIC27iOgVJIUtchomSopWq/exec';
+        const googleScriptUrl = 'https://script.google.com/macros/s/AKfycbyRZ-RHqC8rNMag2vSYKFLD_k6AIWOsaeinko-RNEBwZZWHD1kBAjABfnSN6RGSigL3/exec';
 
         // Máscaras de campo
         new Cleave('#cpf', {
@@ -418,7 +418,7 @@
             .then(data => {
                 if (data.status === 'success') {
                     submitButton.innerHTML = '<i class="fas fa-paper-plane fa-spin mr-2"></i> Finalizando...';
-                    emailjs.sendForm('service_ei51uod', 'template_315xj8p', form)
+                    emailjs.sendForm('service_dqzxdhd', 'template_q9n54d6', form)
                         .then(() => {
                             Swal.fire({
                                 title: 'Sucesso!',
